@@ -3,7 +3,7 @@ class AdventDay1:
     def __init__(self):
         self.left = []
         self.right = []
-        with open('day1input.txt', 'r') as f:
+        with open('input_files/day1input.txt', 'r') as f:
             for line in f.readlines():
                 l, r = line.split()
                 self.left.append(int(l))
